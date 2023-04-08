@@ -47,7 +47,6 @@ public class subtractor {
             int sum = gates.xor(sump1, carry);
             carry = gates.or(gates.and(bina.get(i), binb.get(i)), gates.and(sump1, carry));
             sumr.add(sum);
-            System.out.println(bina);
 
         }
 

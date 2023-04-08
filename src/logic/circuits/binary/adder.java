@@ -31,8 +31,6 @@ public class adder {
 
         }
 
-        System.out.println(converter.IntArrayToString(list.ReverseInteger(sumr)));
-
         return converter.IntArrayToString(list.ReverseInteger(sumr));
 
 
