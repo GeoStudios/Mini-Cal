@@ -1,7 +1,7 @@
 from srcP.logic.gates import notGate
 # from logic.gates import notGate
 
-MaxBits = 4
+MaxBits = 16
 
 def StringToBinlist(bin):
     return list(bin)

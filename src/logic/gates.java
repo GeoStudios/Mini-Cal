@@ -7,7 +7,7 @@ package logic;
 public class gates {
 
     public static int not(int a){
-        if (a == 1) return 1; else return 0;
+        if (a == 1) return 0; else return 1;
     }
 
     public static int buffer(int a){
@@ -23,7 +23,7 @@ public class gates {
     }
 
     public static int or(int a, int b){
-        return not(and(not(a), not(b)));
+        return nand(not(a), not(b));
     }
 
     public static int nor(int a, int b){

@@ -5,7 +5,7 @@ f = open("Generate.txt", "w")
 #     f.write("    b.b"+str(i+1)+" = (int)(a["+str(i)+"]);\n")
 
 for i in range(16):
-    f.write('    if ( nibbleString == "'+DecimalToBinary(i)+'") hexL.add("'+hex(i).replace("0x", "")+'");\n')
+    f.write('    if ( bitString.contains("'+hex(i).replace("0x", "")+'")) binL.add("'+DecimalToBinary(i)+'");\n')
 
 
 f.close()
