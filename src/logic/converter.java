@@ -8,8 +8,10 @@ import java.util.ArrayList;
 // import java.util.Arrays;
 import java.util.List;
 
+import logic.circuits.binary.adder;
 import parser.binary;
 import parser.hex;
+import parser.list;
 
 public class converter {
     public static List<String> StringListToStrArray(String[] list){
@@ -107,6 +109,28 @@ public class converter {
         }
 
         return StrArrayToString(binL);
+    }
+
+    public static String Negatate(String A){
+
+        String binAI = adder.add(
+                IntArrayToString(
+                        list.ReverseInteger(
+                                list.InvertInteger(
+                                    StringListToIntArray(
+                                        A.split("")
+                                    )
+                                )
+                        )
+                )
+                ,
+                "0000000000000000"
+                ,
+                0
+        );
+
+        return binAI;
+
     }
 
 }
