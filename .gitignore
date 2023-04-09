@@ -1,5 +1,6 @@
+bin
 out
 srcP
-gen.py
-Generate.txt
 *.class
+*.py
+*.txt

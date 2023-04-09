@@ -24,11 +24,10 @@ public class subtractor {
             int sum = gates.xor(sump1, carry);
             carry = gates.or(gates.and(bina.get(i), binb.get(i)), gates.and(sump1, carry));
             sumr.add(sum);
-            System.out.println(sump1);
 
         }
 
-        return converter.IntArrayToString(list.InvertInteger(list.ReverseInteger(sumr)));
+        return adder.add(converter.IntArrayToString(list.ReverseInteger(sumr)), "00000000000000000000000000000001", 0);
 
 
     }
@@ -50,7 +49,7 @@ public class subtractor {
 
         }
 
-        return converter.IntArrayToString(list.InvertInteger(list.ReverseInteger(sumr)));
+        return adder.add(converter.IntArrayToString(list.ReverseInteger(sumr)), "00000000000000000000000000000001", 0);
 
 
     }

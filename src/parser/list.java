@@ -39,7 +39,7 @@ public class list {
 
         List<Integer> Zlist = new ArrayList<Integer>();
 
-        for (int i = Tlist.size()-1; i > -1; i--){
+        for (int i = 0; i < Tlist.size(); i++){
 
             Zlist.add(gates.not(Tlist.get(i)));
 
