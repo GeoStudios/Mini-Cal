@@ -13,4 +13,4 @@
 
 ### Download
 
-[Download Page](https://github.com/GeoStudios/Downloads/blob/main/supercalc.md)
+[Download (latest)](https://github.com/GeoStudios/Downloads/releases/download/SuperCalc_1.0/SuperCalc.jar)
