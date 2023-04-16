@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
+ */
+
 package parser;
 
 import logic.gates;

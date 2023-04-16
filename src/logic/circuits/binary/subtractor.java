@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
+ */
+
 package logic.circuits.binary;
 
 import logic.Config;

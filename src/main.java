@@ -1,6 +1,7 @@
 /*
- * Copyright (c) 2023 Geo-Studios Inc. All rights reserved.
+ * Copyright (c) 2023 Geo-Studios - All Rights Reserved.
  */
+
 import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

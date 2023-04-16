@@ -1,3 +1,7 @@
+<!-- 
+Copyright (c) 2023 Geo-Studios - All Rights Reserved.
+-->
+
 # Super Calc
 `The 32-bit binary Calculator`
 

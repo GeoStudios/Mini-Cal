@@ -1,3 +1,6 @@
+@REM Copyright (c) 2023 Geo-Studios - All Rights Reserved.
+
+
 @echo off
 
 set "JarName=SuperCalc" 
