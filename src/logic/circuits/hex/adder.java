@@ -11,11 +11,14 @@ import java.util.List;
 
 public class adder {
 
-    public static void adder(String HexA, String HexB) {
+    public static String add(String HexA, String HexB, int carryIn) {
 
 
-
-
+        String binA = converter.HexadecimalT oBinary(HexA);
+        String binB = converter.HexadecimalToBinary(HexB);
+//        System.out.println(binA);
+        String sum = logic.circuits.binary.adder.add(binA, binB, carryIn);
+        return converter.BinaryToHexadecimal(sum);
 
     }
 

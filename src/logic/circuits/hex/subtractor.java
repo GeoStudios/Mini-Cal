@@ -11,10 +11,24 @@ import java.util.List;
 
 public class subtractor {
 
-    public static void subtractor(String HexA, String HexB) {
+    public static String subtractFromA(String HexA, String HexB) {
 
+        String binA = converter.HexadecimalToBinary(HexA);
+        String binB = converter.HexadecimalToBinary(HexB);
 
+        String sum = logic.circuits.binary.subtractor.subtractFromA(binA, binB);
 
+        return converter.BinaryToHexadecimal(sum);
+    }
+
+    public static String subtractFromB(String HexA, String HexB) {
+
+        String binA = converter.HexadecimalToBinary(HexA);
+        String binB = converter.HexadecimalToBinary(HexB);
+
+        String sum = logic.circuits.binary.subtractor.subtractFromB(binA, binB);
+
+        return converter.BinaryToHexadecimal(sum);
     }
 
 }

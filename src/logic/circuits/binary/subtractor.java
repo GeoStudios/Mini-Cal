@@ -14,14 +14,14 @@ import java.util.List;
 
 public class subtractor {
 
-    public static String subtractFromA(String BinaryA, String BinaryB, int carryIn) {
+    public static String subtractFromA(String BinaryA, String BinaryB) {
 
         List<Integer> bina = list.ReverseInteger(converter.StringListToIntArray(BinaryA.split("")));
         List<Integer> binb = list.InvertInteger(list.ReverseInteger(converter.StringListToIntArray(BinaryB.split(""))));
 
         List<Integer> sumr = new ArrayList<Integer>();
 
-        int carry = carryIn;
+        int carry = 0;
         for (int i = 0; i < Config.BitLimit; i++){
 
             int sump1 = gates.xor(bina.get(i), binb.get(i));
@@ -36,14 +36,14 @@ public class subtractor {
 
     }
 
-    public static String subtractFromB(String BinaryA, String BinaryB, int carryIn) {
+    public static String subtractFromB(String BinaryA, String BinaryB) {
 
         List<Integer> bina = list.ReverseInteger(converter.StringListToIntArray(converter.Negatate(BinaryA).split("")));
         List<Integer> binb = list.ReverseInteger(converter.StringListToIntArray(BinaryB.split("")));
 
         List<Integer> sumr = new ArrayList<Integer>();
 
-        int carry = carryIn;
+        int carry = 0;
         for (int i = 0; i < Config.BitLimit; i++){
 
             int sump1 = gates.xor(bina.get(i), binb.get(i));

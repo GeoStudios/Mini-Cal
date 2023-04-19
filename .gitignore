@@ -2,6 +2,7 @@
 
 bin
 out
+.idea
 srcP
 *.class
 *.py

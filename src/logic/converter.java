@@ -108,6 +108,12 @@ public class converter {
 
         }
 
+        binL = list.ReverseString(binL);
+        for (int i=0;i<(Config.BitLimit-hexL.size());i++){
+            binL.add("0");
+        }
+        binL = list.ReverseString(binL);
+
         return StrArrayToString(binL);
     }
 

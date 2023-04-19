@@ -15,8 +15,9 @@ public class list {
 
         List<String> Zlist = new ArrayList<String>();
 
-        for (int i = Tlist.size(); i > -1; i++){
+        for (int i = Tlist.size()-1; i > -1; i--){
 
+//            System.out.println(i);
             Zlist.add(Tlist.get(i));
 
         }
