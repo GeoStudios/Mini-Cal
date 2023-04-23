@@ -12,8 +12,8 @@ Copyright (c) 2023 Geo-Studios - All Rights Reserved.
 - [ ] BCD Output
 
 ### Hexadecimal Support
-- [ ] Hex adder 32-bit
-- [ ] Hex Subtractors 32-bit
+- [ ] Hex adder
+- [ ] Hex Subtractors
 
 ### Download
 

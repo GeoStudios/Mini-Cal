@@ -6,6 +6,6 @@ package logic;
 
 public class Config {
 
-    public static int BitLimit = 32;
+    public static int BitLimit = 8;
 
 }

@@ -15,11 +15,9 @@ public class adder {
 
 
         String binA = converter.HexadecimalToBinary(HexA.toLowerCase());
-        System.out.println(binA);
         String binB = converter.HexadecimalToBinary(HexB.toLowerCase());
         //        System.out.println(binA);
         String sum = logic.circuits.binary.adder.add(binA, binB, carryIn);
-        System.out.println(sum);
         return converter.BinaryToHexadecimal(sum);
 
     }

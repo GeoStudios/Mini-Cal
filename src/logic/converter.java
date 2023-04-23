@@ -118,9 +118,6 @@ public class converter {
 
         }
 
-        binL = list.ReverseString(binL);
-        binL = list.ReverseString(binL);
-
         return StrArrayToString(binL);
     }
 
