@@ -11,6 +11,21 @@ import java.util.List;
 
 public class list {
 
+    public static List<List<String>> ReverseList(List<List<String>> Tlist){
+
+        List<List<String>> Zlist = new ArrayList<List<String>>();
+
+        for (int i = Tlist.size()-1; i > -1; i--){
+
+//            System.out.println(i);
+            Zlist.add(Tlist.get(i));
+
+        }
+
+        return Zlist;
+
+    }
+
     public static List<String> ReverseString(List<String> Tlist){
 
         List<String> Zlist = new ArrayList<String>();

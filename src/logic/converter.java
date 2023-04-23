@@ -80,11 +80,24 @@ public class converter {
     public static String HexadecimalToBinary(String hexa){
 
         List<List<String>> hexL = hex.Split(1, hexa);
+        // List<List<String>> hexE = new ArrayList<List<String>>();
+        List<List<String>> ha = new ArrayList<List<String>>();
+        List<List<String>> he = new ArrayList<List<String>>();
         List<String> binL = new ArrayList<String>();
 
-        for (int i = 0; i < hexL.size(); i++){
+        ha = list.ReverseList(hexL);
 
-            String bitString = StrArrayToString(hexL.get(i));
+        for (int i=0;i<((Config.BitLimit/4)-hexL.size());i++){
+            List<String> hexP = new ArrayList<String>();
+            hexP.add("0");
+            ha.add(hexP);
+        }
+
+        he = list.ReverseList(ha);
+
+        for (int i = 0; i < he.size(); i++){
+
+            String bitString = StrArrayToString(he.get(i));
 
             if ( bitString.contains("0")) binL.add("0000");
             if ( bitString.contains("1")) binL.add("0001");
@@ -103,15 +116,9 @@ public class converter {
             if ( bitString.contains("e")) binL.add("1110");
             if ( bitString.contains("f")) binL.add("1111");
 
-
-
-
         }
 
         binL = list.ReverseString(binL);
-        for (int i=0;i<(Config.BitLimit-hexL.size());i++){
-            binL.add("0");
-        }
         binL = list.ReverseString(binL);
 
         return StrArrayToString(binL);

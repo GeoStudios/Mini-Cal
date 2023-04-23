@@ -14,10 +14,12 @@ public class adder {
     public static String add(String HexA, String HexB, int carryIn) {
 
 
-        String binA = converter.HexadecimalToBinary(HexA);
-        String binB = converter.HexadecimalToBinary(HexB);
-//        System.out.println(binA);
+        String binA = converter.HexadecimalToBinary(HexA.toLowerCase());
+        System.out.println(binA);
+        String binB = converter.HexadecimalToBinary(HexB.toLowerCase());
+        //        System.out.println(binA);
         String sum = logic.circuits.binary.adder.add(binA, binB, carryIn);
+        System.out.println(sum);
         return converter.BinaryToHexadecimal(sum);
 
     }
