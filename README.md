@@ -18,3 +18,4 @@ Copyright (c) 2023 Geo-Studios - All Rights Reserved.
 ### Download
 
 [Download (latest)](https://github.com/GeoStudios/Downloads/releases/tag/SuperCalc_1.0)
+[Wiki](https://github.com/GeoStudios/Wiki/blob/main/Projects/Mini-Cal/readme.md)
