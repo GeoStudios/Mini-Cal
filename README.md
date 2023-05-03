@@ -22,8 +22,4 @@ Copyright (c) 2023 Geo-Studios - All Rights Reserved.
 [Wiki](https://github.com/GeoStudios/Wiki/blob/main/Projects/Mini-Cal/readme.md)
 <br />
 ##### Latest
-[MiniCal Lib](https://github.com/GeoStudios/MiniCal-Library)
-[Wiki](https://github.com/GeoStudios/Wiki/blob/main/Projects/Mini-Cal-Lib/readme.md)
-<br />
-[MiniCal Lib](https://github.com/GeoStudios/MiniCal-Client)
-[Wiki](https://github.com/GeoStudios/Wiki/blob/main/Projects/Mini-Cal-Client/readme.md)
+[MiniCal Lib](https://github.com/ZombiiTheCoder/MiniCal-Library)
